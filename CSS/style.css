@@ -1,0 +1,575 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/*----------------------------- Hero section start ------------------------------------*/
+
+.m2 {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.hero {
+    background-image: url("../Images/Hero-img.svg");
+    height: auto;
+    width: 100%;
+    background-position: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: .5rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo img {
+    height: 1rem;
+}
+
+.nav-item ul {
+    list-style: none;
+    display: flex;
+    gap: 0.3rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-item ul a {
+    text-decoration: none;
+    color: azure;
+    font-size: 0.7rem;
+    font-weight: 400;
+}
+
+.nav-item ul a:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.nav-item ul a:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+.cart img {
+    width: 1rem;
+}
+
+.text-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+    color: azure;
+    margin-top: 20%;
+}
+
+.text-1 h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.para-1 p {
+    margin-top: 1rem;
+    text-align: center;
+    font-size: .8rem;
+    font-weight: 200;
+}
+
+.search {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.search input {
+    display: flex;
+    background-color: rgba(235, 238, 238, 0.596);
+    outline: none;
+    border: 1px solid white;
+    border-radius: 2rem;
+    height: 1.8rem;
+    padding-left: .8rem;
+    padding-right: .8rem;
+    color: rgb(43, 44, 44);
+    position: absolute;
+}
+
+
+/*----------------------------- Hero section end ------------------------------------*/
+
+
+/*----------------------------- choosing section start ------------------------------------*/
+
+.section2 {
+    margin-top: 2rem;
+}
+
+.section2 .text {
+    display: flex;
+}
+
+.section2 h1 {
+    color: #564E4E;
+    font-weight: 500;
+}
+
+.section-2_content {
+    display: flex;
+    flex-direction: column;
+    gap: .9rem;
+    margin-top: 1rem;
+    justify-content: center;
+}
+
+.section2 .box {
+    flex-grow: 1;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid #FADCD9;
+    box-sizing: border-box;
+    border-radius: 10px;
+    transition: 800ms;
+}
+
+.section2 .box:hover {
+    box-shadow: 4px 2px 10px 2px rgba(247, 148, 137, 0.2);
+}
+
+.section2 .imgt h1 {
+    margin-top: .4rem;
+    font-size: .8rem;
+    font-weight: 600;
+}
+
+.section2 .imgt img {
+    height: 2rem;
+}
+
+.section2 .box p {
+    margin-top: .6rem;
+    font-size: .7rem;
+    color: #564E4E;
+}
+
+.section2 .box h3 {
+    font-size: .7rem;
+    color: #F79489;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 400;
+    cursor: pointer;
+    color: #db837a;
+}
+
+
+/*----------------------------- choosing section end ------------------------------------*/
+
+
+/*-----------------------------  section-3 start ------------------------------------*/
+
+.section-3 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    gap: 1rem;
+}
+
+.section-3 h1 {
+    color: #564E4E;
+    font-weight: 500;
+}
+
+.section-3 .child {
+    flex-grow: 1;
+}
+
+.section-3 .child1 img {
+    width: 100%;
+}
+
+.child .p1 {
+    margin-top: .5rem;
+    color: #564E4E;
+    font-size: .7rem;
+}
+
+.child .p2 {
+    margin-top: .5rem;
+    color: #564E4E;
+    font-size: .7rem;
+}
+
+.child .font h2 {
+    margin-top: .5rem;
+    color: #564E4E;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.child ul {
+    list-style: none;
+    margin-top: 1rem;
+}
+
+.child ul li {
+    color: #564E4E;
+    font-weight: 400;
+    font-size: .7rem;
+    margin-top: .6rem;
+}
+
+.child h3 {
+    font-size: .7rem;
+    color: #F79489;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    font-weight: 400;
+    cursor: pointer;
+    color: #db837a;
+}
+
+
+/*-----------------------------  section-3 end ------------------------------------*/
+
+
+/*-----------------------------  section-4 start ------------------------------------*/
+
+.section-4 {
+    margin-top: 2rem;
+}
+
+.section-4 h1 {
+    text-align: center;
+    color: #564E4E;
+    font-weight: 500;
+}
+
+.boxP {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.section-4 .boxP .boxs {
+    flex-grow: 1;
+}
+
+.section-4 .boxP .boxs img {
+    width: 100%;
+}
+
+.section-4 .boxP .boxs .rating {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-4 .boxP .boxs .rating h2 {
+    color: #564E4E;
+    font-size: .8rem;
+}
+
+.section-4 .boxP .boxs .rating p {
+    color: #C4C4C4;
+    font-size: .5rem;
+}
+
+.section-4 .boxP .boxs .rating h3 {
+    color: #564E4E;
+    font-size: .4rem;
+}
+
+.section-4 .boxP .boxs .rating img {
+    margin-top: .3rem;
+    width: 3rem;
+}
+
+
+/*-----------------------------  section-4 end ------------------------------------*/
+
+
+/*-----------------------------  section-5 start ------------------------------------*/
+
+.section-5 {
+    margin-top: 5rem;
+}
+
+.section-5 .box {
+    padding-top: 2rem;
+    background: linear-gradient(279.85deg, #FFFFFF 0%, #FAF5F2 100%);
+}
+
+.section-5 h1 {
+    text-align: center;
+    color: #564E4E;
+    font-weight: 500;
+}
+
+.section-5 .boxP {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-5 .boxP .box-item h3 {
+    font-size: .8rem;
+    font-weight: 600;
+    color: #564E4E;
+    text-align: center;
+}
+
+.section-5 .boxP .box-item p {
+    margin-top: .5rem;
+    font-size: .7rem;
+    font-weight: 400;
+    color: #564E4E;
+}
+
+.section-5 .boxP .box-item .img img {
+    border-radius: 100%;
+    width: 2rem;
+}
+
+.section-5 .boxP .box-item .mens h4 {
+    margin-top: .5rem;
+    font-size: .7rem;
+    font-weight: 600;
+    color: #564E4E;
+}
+
+.section-5 .boxP .box-item .mens p {
+    margin-top: 0;
+    color: #564E4E;
+    font-weight: 500;
+    font-size: .6rem;
+}
+
+.section-5 .boxP .box-item .title {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 6rem;
+    justify-content: center;
+}
+
+
+/*-----------------------------  section-5 end ------------------------------------*/
+
+
+/*-----------------------------  section-6 start ------------------------------------*/
+
+.section-6 {
+    margin-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.section-6 .this-box {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.section-6 .this-box .child-box {
+    flex-grow: 1;
+}
+
+.section-6 .this-box .child-boxp {
+    flex-grow: 1;
+}
+
+.section-6 .this-box .child-boxp .p {
+    margin-top: 3rem;
+    margin-top: .5rem;
+    font-size: .7rem;
+    font-weight: 400;
+    color: #564E4E;
+}
+
+.section-6 .this-box .child-box img {
+    width: 100%;
+    height: 100%;
+}
+
+.section-6 .this-box .child-boxp h1 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #564E4E;
+}
+
+.section-6 .this-box .child-boxp p {
+    margin-top: .5rem;
+    font-size: .7rem;
+    font-weight: 400;
+    color: #564E4E;
+}
+
+
+/*-----------------------------  section-6 end ------------------------------------*/
+
+footer {
+    background: linear-gradient(275.58deg, #000000 0%, #4B4B4B 100%);
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+footer section {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+footer section div ul {
+    list-style: none;
+}
+
+footer section div ul li {
+    margin-top: 1rem;
+    font-size: .6rem;
+    color: white;
+}
+
+.copy {
+    font-size: .7rem;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+
+/* Media Quires */
+
+@media (min-width:520px) {
+    .logo img {
+        height: 1.7rem;
+    }
+    .nav-item ul {
+        gap: 0.5rem;
+        font-size: .9rem;
+    }
+    .cart img {
+        width: 1.3rem;
+    }
+    .boxP {
+        flex-direction: row;
+    }
+}
+
+@media (min-width:670px) {
+    .text-section h1 {
+        font-weight: 600;
+        font-size: 2rem;
+    }
+    .para-1 p {
+        margin-top: 1rem;
+        text-align: center;
+        font-size: .8rem;
+        font-weight: 200;
+    }
+    .section-2_content {
+        flex-direction: row;
+    }
+    .section2 {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    .section-3 {
+        flex-direction: row;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    .section-4 {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    .section-5 {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    .section-6 {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    .section-5 .boxP {
+        display: flex;
+        flex-direction: row;
+    }
+    .section-3 .child1 {
+        order: 1;
+    }
+    .section-5 .boxP {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+    .footer {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+    .section-5 .boxP .box-item .title {
+        justify-content: left;
+    }
+    .section-5 .boxP .box-item h3 {
+        text-align: left;
+    }
+    footer section {
+        display: flex;
+        flex-direction: row;
+        padding-right: 3rem;
+        padding-left: 3rem;
+        gap: 7rem;
+    }
+    .copy {
+        text-align: center;
+    }
+    .section-6 .this-box {
+        flex-direction: row;
+    }
+    .section-6 .this-box .child-boxp {
+        padding-left: 1rem;
+    }
+    .section-5 .boxP {
+        gap: 2rem;
+    }
+    @media (min-width:1000px) {
+        .section-2_content {
+            gap: 2rem;
+        }
+        .child .p1 {
+            margin-top: 1rem;
+        }
+        .child .p2 {
+            margin-top: 1rem;
+        }
+        .child .font h2 {
+            margin-top: 1rem;
+        }
+        .child h3 {
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
+    }
+}
